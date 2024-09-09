@@ -1,3 +1,14 @@
 {
-  "extends": "@react-native/typescript-config/tsconfig.json"
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  // "compilerOptions": {
+  //   "jsx": "react-native",
+  //   "allowSyntheticDefaultImports": true,
+  //   "esModuleInterop": true,
+  //   "strict": true,
+  //   "skipLibCheck": true,
+  //   "moduleResolution": "node",
+  //   "target": "esnext"
+  // },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "declaration.d.ts"],
+  "exclude": ["node_modules"]
 }
